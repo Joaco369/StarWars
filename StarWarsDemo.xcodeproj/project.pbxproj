@@ -11,6 +11,10 @@
 		295C13682C985C150021EC9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C13672C985C150021EC9E /* ContentView.swift */; };
 		295C136A2C985C170021EC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295C13692C985C170021EC9E /* Assets.xcassets */; };
 		295C136D2C985C170021EC9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295C136C2C985C170021EC9E /* Preview Assets.xcassets */; };
+		295C13742C985DC10021EC9E /* StarWars.json in Resources */ = {isa = PBXBuildFile; fileRef = 295C13732C985DC10021EC9E /* StarWars.json */; };
+		295C13762C985DDE0021EC9E /* StarWars Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 295C13752C985DDE0021EC9E /* StarWars Test.json */; };
+		295C13782C985DEF0021EC9E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C13772C985DEF0021EC9E /* Model.swift */; };
+		295C137A2C986EA70021EC9E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C13792C986EA70021EC9E /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		295C13672C985C150021EC9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		295C13692C985C170021EC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		295C136C2C985C170021EC9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		295C13732C985DC10021EC9E /* StarWars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = StarWars.json; path = ../../../Downloads/StarWars.json; sourceTree = "<group>"; };
+		295C13752C985DDE0021EC9E /* StarWars Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "StarWars Test.json"; path = "../../../../Downloads/StarWars Test.json"; sourceTree = "<group>"; };
+		295C13772C985DEF0021EC9E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		295C13792C986EA70021EC9E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,10 @@
 				295C13652C985C150021EC9E /* StarWarsDemoApp.swift */,
 				295C13672C985C150021EC9E /* ContentView.swift */,
 				295C13692C985C170021EC9E /* Assets.xcassets */,
+				295C13732C985DC10021EC9E /* StarWars.json */,
 				295C136B2C985C170021EC9E /* Preview Content */,
+				295C13772C985DEF0021EC9E /* Model.swift */,
+				295C13792C986EA70021EC9E /* Repository.swift */,
 			);
 			path = StarWarsDemo;
 			sourceTree = "<group>";
@@ -63,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				295C136C2C985C170021EC9E /* Preview Assets.xcassets */,
+				295C13752C985DDE0021EC9E /* StarWars Test.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				295C136D2C985C170021EC9E /* Preview Assets.xcassets in Resources */,
+				295C13762C985DDE0021EC9E /* StarWars Test.json in Resources */,
+				295C13742C985DC10021EC9E /* StarWars.json in Resources */,
 				295C136A2C985C170021EC9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295C13782C985DEF0021EC9E /* Model.swift in Sources */,
 				295C13682C985C150021EC9E /* ContentView.swift in Sources */,
 				295C13662C985C150021EC9E /* StarWarsDemoApp.swift in Sources */,
+				295C137A2C986EA70021EC9E /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
