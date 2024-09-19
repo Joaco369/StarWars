@@ -7,7 +7,6 @@
 
 import Foundation
 
-<<<<<<< HEAD
 protocol DataRepository {
   var url: URL { get }
 }
@@ -31,11 +30,10 @@ struct RepositoryTest: DataRepository {
   var url: URL {
     Bundle.main.url(forResource: "StarWars Test", withExtension: "json")!
   }
-=======
+
 func getData() throws -> [StarCard] {
   let url = Bundle.main.url(forResource: "StarWars", withExtension: "json")!
   let data = try Data(contentsOf: url)
   let decoder = JSONDecoder()
   decoder.keyDecodingStrategy = .convertFromSnakeCase
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 }

@@ -9,11 +9,7 @@ import Foundation
 
 struct StarCardDTO: Codable {
   let id: Int
-<<<<<<< HEAD
   let nombre: String
-=======
-  let name: String
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
   let raza: String
   let descripcion: String
   let planetaOrigen: String
@@ -27,11 +23,7 @@ struct StarCardDTO: Codable {
 extension StarCardDTO {
   var toCard: StarCard {
     StarCard(id: id,
-<<<<<<< HEAD
              nombre: nombre,
-=======
-             name: name,
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
              raza: raza,
              descripcion: descripcion,
              planetaOrigen: planetaOrigen,
@@ -45,11 +37,7 @@ extension StarCardDTO {
 
 struct StarCard: Identifiable, Hashable {
   let id: Int
-<<<<<<< HEAD
   let nombre: String
-=======
-  let name: String
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
   let raza: String
   let descripcion: String
   let planetaOrigen: String
@@ -59,7 +47,6 @@ struct StarCard: Identifiable, Hashable {
   let armas: [String]
   let imagen: String
 }
-<<<<<<< HEAD
 
 extension StarCard {
   static let test = StarCard(id: 6629,
@@ -73,5 +60,3 @@ extension StarCard {
                              armas: ["Sable de luz"],
                              imagen: "lukeskywalker")
 }
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
