@@ -3,11 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-<<<<<<< HEAD
 	objectVersion = 70;
-=======
-	objectVersion = 56;
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +15,6 @@
 		295C13762C985DDE0021EC9E /* StarWars Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 295C13752C985DDE0021EC9E /* StarWars Test.json */; };
 		295C13782C985DEF0021EC9E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C13772C985DEF0021EC9E /* Model.swift */; };
 		295C137A2C986EA70021EC9E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C13792C986EA70021EC9E /* Repository.swift */; };
-<<<<<<< HEAD
 		295C137D2C98B8800021EC9E /* StarWarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C137C2C98B8800021EC9E /* StarWarsVM.swift */; };
 		295CADF22C9A0FF900A5989A /* StarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295CADF12C9A0FF900A5989A /* StarCardView.swift */; };
 /* End PBXBuildFile section */
@@ -34,10 +29,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-=======
-/* End PBXBuildFile section */
-
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* Begin PBXFileReference section */
 		295C13622C985C150021EC9E /* StarWarsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		295C13652C985C150021EC9E /* StarWarsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDemoApp.swift; sourceTree = "<group>"; };
@@ -48,7 +39,6 @@
 		295C13752C985DDE0021EC9E /* StarWars Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "StarWars Test.json"; path = "../../../../Downloads/StarWars Test.json"; sourceTree = "<group>"; };
 		295C13772C985DEF0021EC9E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		295C13792C986EA70021EC9E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		295C137C2C98B8800021EC9E /* StarWarsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVM.swift; sourceTree = "<group>"; };
 		295CADF12C9A0FF900A5989A /* StarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCardView.swift; sourceTree = "<group>"; };
 		298DF78A2C9B010A00554800 /* StarWarsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +48,6 @@
 		298DF78B2C9B010A00554800 /* StarWarsDemoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StarWarsDemoTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
-=======
-/* End PBXFileReference section */
-
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* Begin PBXFrameworksBuildPhase section */
 		295C135F2C985C150021EC9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -70,7 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
 		298DF7872C9B010A00554800 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,8 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,10 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				295C13642C985C150021EC9E /* StarWarsDemo */,
-<<<<<<< HEAD
 				298DF78B2C9B010A00554800 /* StarWarsDemoTests */,
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 				295C13632C985C150021EC9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				295C13622C985C150021EC9E /* StarWarsDemo.app */,
-<<<<<<< HEAD
 				298DF78A2C9B010A00554800 /* StarWarsDemoTests.xctest */,
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,11 +94,8 @@
 				295C136B2C985C170021EC9E /* Preview Content */,
 				295C13772C985DEF0021EC9E /* Model.swift */,
 				295C13792C986EA70021EC9E /* Repository.swift */,
-<<<<<<< HEAD
 				295C137C2C98B8800021EC9E /* StarWarsVM.swift */,
 				295CADF12C9A0FF900A5989A /* StarCardView.swift */,
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 			);
 			path = StarWarsDemo;
 			sourceTree = "<group>";
@@ -155,7 +129,6 @@
 			productReference = 295C13622C985C150021EC9E /* StarWarsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-<<<<<<< HEAD
 		298DF7892C9B010A00554800 /* StarWarsDemoTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298DF7922C9B010A00554800 /* Build configuration list for PBXNativeTarget "StarWarsDemoTests" */;
@@ -179,8 +152,6 @@
 			productReference = 298DF78A2C9B010A00554800 /* StarWarsDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,23 +159,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-<<<<<<< HEAD
 				LastSwiftUpdateCheck = 1600;
-=======
-				LastSwiftUpdateCheck = 1540;
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					295C13612C985C150021EC9E = {
 						CreatedOnToolsVersion = 15.4;
 					};
-<<<<<<< HEAD
 					298DF7892C9B010A00554800 = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 295C13612C985C150021EC9E;
 					};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 				};
 			};
 			buildConfigurationList = 295C135D2C985C150021EC9E /* Build configuration list for PBXProject "StarWarsDemo" */;
@@ -221,10 +185,7 @@
 			projectRoot = "";
 			targets = (
 				295C13612C985C150021EC9E /* StarWarsDemo */,
-<<<<<<< HEAD
 				298DF7892C9B010A00554800 /* StarWarsDemoTests */,
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
 		298DF7882C9B010A00554800 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,8 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,16 +219,12 @@
 				295C13782C985DEF0021EC9E /* Model.swift in Sources */,
 				295C13682C985C150021EC9E /* ContentView.swift in Sources */,
 				295C13662C985C150021EC9E /* StarWarsDemoApp.swift in Sources */,
-<<<<<<< HEAD
 				295C137D2C98B8800021EC9E /* StarWarsVM.swift in Sources */,
 				295CADF22C9A0FF900A5989A /* StarCardView.swift in Sources */,
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 				295C137A2C986EA70021EC9E /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
 		298DF7862C9B010A00554800 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,11 +241,6 @@
 			targetProxy = 298DF78E2C9B010A00554800 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-=======
-/* End PBXSourcesBuildPhase section */
-
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* Begin XCBuildConfiguration section */
 		295C136E2C985C170021EC9E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -470,7 +419,6 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
 		298DF7902C9B010A00554800 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,8 +457,6 @@
 			};
 			name = Release;
 		};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -532,7 +478,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
 		298DF7922C9B010A00554800 /* Build configuration list for PBXNativeTarget "StarWarsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -542,8 +487,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-=======
->>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 /* End XCConfigurationList section */
 	};
 	rootObject = 295C135A2C985C150021EC9E /* Project object */;
