@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+<<<<<<< HEAD
   
   @State var vm = StarWarsVM()
   
@@ -31,4 +32,19 @@ struct ContentView: View {
 
 #Preview {
   ContentView(vm: StarWarsVM(repository: RepositoryTest()))
+=======
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("holaaa")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+>>>>>>> 3493521609f48fc4ee6a7911b3d90494fcf9d224
 }
